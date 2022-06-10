@@ -16,7 +16,7 @@ class A1Kinematics {
         const int RHO_OPT_SIZE = 3;
         const int RHO_FIX_SIZE = 5;
         // rho opt are contact offset cx cy cz
-        // rho fix are body offset x& y, thigh offset, upper leg length, lower leg length
+        // rho fix are body offset x & y, thigh offset, upper leg length, lower leg length
         // functions with eigen interface
         // forward kinematics 3x1
         Eigen::Vector3d fk(Eigen::Vector3d q, Eigen::VectorXd rho_opt, Eigen::VectorXd rho_fix);

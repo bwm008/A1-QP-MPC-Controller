@@ -52,6 +52,7 @@ A1BasicEKF::A1BasicEKF (bool assume_flat_ground_):A1BasicEKF() {
         }
     }
 }
+
 void A1BasicEKF::init_state(A1CtrlStates& state) {
 
     filter_initialized = true;
